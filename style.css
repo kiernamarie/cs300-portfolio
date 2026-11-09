@@ -1,0 +1,170 @@
+/* General Website Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Headings */
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #14213d;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Header and Navigation */
+
+header {
+    background-color: #14213d;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Sections */
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Introduction */
+
+#home {
+    text-align: center;
+    padding: 90px 20px;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+}
+
+#home p {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+#home a {
+    display: inline-block;
+    background-color: #14213d;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#home a:hover {
+    background-color: #333333;
+}
+
+/* About Me */
+
+#about {
+    border-top: 1px solid #dddddd;
+}
+
+/* Projects */
+
+#projects {
+    border-top: 1px solid #dddddd;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+/* Project Buttons */
+
+.project-button {
+    background-color: #14213d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.project-button:hover {
+    background-color: #333333;
+}
+
+.project-button:focus-visible {
+    outline: 3px solid #14213d;
+    outline-offset: 4px;
+}
+
+/* Project Details */
+
+.project-card div {
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 3px solid #14213d;
+    background-color: #f5f5f5;
+}
+
+.project-card div[hidden] {
+    display: none

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav aria-label="Main navigation">
+            <h1>My Portfolio</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Introduction -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+
+            <p>
+                Hi! I'm a Computer Science student at
+                Northeastern Illinois University.
+                Welcome to my portfolio, where I share
+                some of the projects I've worked on
+                and the skills I've learned.
+            </p>
+
+            <a href="#projects">View My Projects</a>
+        </section>
+
+
+        <!-- About Me -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I'm currently studying Computer Science
+                at Northeastern Illinois University.
+                Throughout my coursework, I've been
+                learning different programming languages
+                and how to create websites.
+            </p>
+
+            <p>
+                This portfolio highlights some of my
+                projects and shows the skills I've
+                developed along the way.
+            </p>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <p>
+                Here are some projects I've completed
+                during my CS300 Web Development course.
+            </p>
+
+
+            <!-- Project 1 -->
+            <article class="project-card">
+
+                <h3>Profile Card - Assignment 1</h3>
+
+                <p>
+                    For Assignment 1, I created a profile
+                    card using HTML and CSS. The goal was
+                    to organize information in a clean,
+                    simple layout.
+                </p>
+
+                <button
+                    type="button"
+                    class="project-button"
+                    aria-expanded="false"
+                    aria-controls="project1-details">
+                    Show Project Details
+                </button>
+
+                <div id="project1-details" hidden>
+
+                    <h4>About This Project</h4>
+
+                    <p>
+                        I started by planning the layout
+                        and building the HTML structure.
+                        I then used CSS to style the
+                        profile card.
+                    </p>
+
+                    <p>
+                        I tested the design on different
+                        screen sizes and adjusted the
+                        code to improve the appearance.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 2 -->
+            <article class="project-card">
+
+                <h3>J Plumbing Website - Assignment 2</h3>
+
+                <p>
+                    For Assignment 2, I created a
+                    plumbing website for J Plumbing
+                    using HTML and CSS.
+                </p>
+
+                <p>
+                    The goal was to create a professional,
+                    easy-to-use website where customers
+                    could find services and contact
+                    information.
+                </p>
+
+                <button
+                    type="button"
+                    class="project-button"
+                    aria-expanded="false"
+                    aria-controls="project2-details">
+                    Show Project Details
+                </button>
+
+                <div id="project2-details" hidden>
+
+                    <h4>About This Project</h4>
+
+                    <p>
+                        I planned the layout and used
+                        HTML to create the different
+                        pages and CSS to style them.
+                    </p>
+
+                    <p>
+                        I included customer testimonials
+                        to help build trust with visitors.
+                    </p>
+
+                    <p>
+                        I also tested the website to
+                        make sure visitors could navigate
+                        using a keyboard without a mouse.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <p>
+                Here are some of the skills I've
+                developed through my coursework.
+            </p>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Responsive Web Design</li>
+                <li>Git and GitHub</li>
+                <li>Visual Studio Code</li>
+            </ul>
+
+        </section>
+
+
+        <!-- Resume -->
+        <section id="resume">
+
+            <h2>My Resume</h2>
+
+            <p>
+                I'm currently working toward my
+                bachelor's degree in Computer Science
+                at Northeastern Illinois University.
+            </p>
+
+            <p>
+                My resume will be available here
+                once it is uploaded.
+            </p>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                Thank you for visiting my portfolio!
+                Feel free to reach out if you'd like
+                to learn more about my work.
+            </p>
+
+            <p>
+                Contact information coming soon.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            My Portfolio | CS300 Web Development
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
