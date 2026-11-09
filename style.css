@@ -113,18 +113,18 @@ section {
 /* About Me */
 
 #about {
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid #245A81;
 }
 
 /* Projects */
 
 #projects {
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid #245A81;
 }
 
 .project-card {
-    background-color: #f4f7fa;
-    border: 1px solid #cccccc;
+    background-color: #8fafc6;
+    border: 2px solid #B6CDDE;
     border-radius: 8px;
     padding: 25px;
     margin: 25px 0;
@@ -173,4 +173,7 @@ section {
     /* Keep visited links blue instead of purple */
 a:visited {
     color: #245a81;
+}
+nav a:visited {
+    color: white;
 }
