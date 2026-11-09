@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #e6f4ff;
+    background-color: #86bde7;
     color: #333333;
     line-height: 1.6;
 }
@@ -123,7 +123,7 @@ section {
 }
 
 .project-card {
-    background-color: #f0f8ff;
+    background-color: #7ab2e2;
     border: 1px solid #cccccc;
     border-radius: 8px;
     padding: 25px;
