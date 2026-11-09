@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .error-page {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .error-page h1 {
+            font-size: 5rem;
+            margin-bottom: 10px;
+        }
+
+        .error-page p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+
+        .home-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #245a81;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .home-button:hover {
+            background-color: #173e59;
+        }
+
+        .home-button:focus-visible {
+            outline: 3px solid #173e59;
+            outline-offset: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main class="error-page">
+        <h1>404</h1>
+        <h2>Oops! Page Not Found</h2>
+
+        <p>
+            Looks like this page doesn't exist.
+            Let's get you back on track!
+        </p>
+
+        <a href="index.html" class="home-button">
+            Back to My Portfolio
+        </a>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | My Portfolio</p>
+    </footer>
+</body>
+</html>
