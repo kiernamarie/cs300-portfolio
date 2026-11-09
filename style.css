@@ -123,7 +123,7 @@ section {
 }
 
 .project-card {
-    background-color: #ecf2f7;
+    background-color: #f4f7fa;
     border: 1px solid #cccccc;
     border-radius: 8px;
     padding: 25px;
@@ -163,8 +163,14 @@ section {
     margin-top: 20px;
     padding: 15px;
     border-left: 3px solid #14213d;
-    background-color: #f5f5f5;
+    background-color: #b6cdde;
 }
 
 .project-card div[hidden] {
-    display: none
+    display: none;
+}
+  
+    /* Keep visited links blue instead of purple */
+a:visited {
+    color: #245a81;
+}
