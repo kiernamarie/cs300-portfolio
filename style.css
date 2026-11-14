@@ -177,3 +177,8 @@ a:visited {
 nav a:visited {
     color: white;
 }
+.project-screenshot {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
