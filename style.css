@@ -186,15 +186,16 @@ nav a:visited {
 @media (min-width: 768px) {
     #projects {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 20px;
     }
 
-    #projects h2 {
+    #projects > :not(.project-card) {
         grid-column: 1 / -1;
     }
 
     .project-card {
         margin: 0;
+        min-width: 0;
     }
 }
